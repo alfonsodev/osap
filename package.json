@@ -1,0 +1,23 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "Execute osascript with Promises",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/over-powdered/soap.git"
+  },
+  "keywords": [
+    "osascript",
+    "execute",
+    "AppleScript"
+  ],
+  "author": "Over Powdered",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/over-powdered/soap/issues"
+  },
+  "homepage": "https://github.com/over-powdered/soap"
+}

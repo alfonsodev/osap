@@ -6,7 +6,7 @@ const exec = require('child_process').exec;
 
 module.exports = function(script) {
   if (!script || script === '') throw new Error('Invalid arguments');
-  script = script.replace(/\n/g, ' ');
+  script = script.replace(/\n/g, ' ').replace(/\"/g, '\\"');
   return new Promise(function(resolve, reject) {
     let command = `osascript -e "${script}"`;
     exec(command, function(error, stdout, stderr) {

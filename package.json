@@ -1,5 +1,5 @@
 {
-  "name": "soap",
+  "name": "osap",
   "version": "1.0.0",
   "description": "Execute osascript with Promises",
   "main": "index.js",

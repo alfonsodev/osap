@@ -1,6 +1,6 @@
 {
   "name": "osap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Execute osascript with Promises",
   "main": "index.js",
   "dependencies": {},

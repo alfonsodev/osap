@@ -7,7 +7,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/dkfiresky/soap.git"
+    "url": "https://github.com/dkfiresky/osap.git"
   },
   "keywords": [
     "osascript",
@@ -17,7 +17,7 @@
   "author": "Dmitry Kholodilin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkfiresky/soap/issues"
+    "url": "https://github.com/dkfiresky/osap/issues"
   },
-  "homepage": "https://github.com/dkfiresky/soap"
+  "homepage": "https://github.com/dkfiresky/osap"
 }

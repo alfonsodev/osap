@@ -1,10 +1,10 @@
-# soap
+# osap
 Execute osascript with Promises
 
 ```js
 'use strict';
 
-const soap = require('soap');
+const osap = require('osap');
 
 soap(`display dialog "A dialog" buttons "OK" default button 1`);
 

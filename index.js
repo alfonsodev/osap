@@ -1,6 +1,9 @@
 'use strict';
 
-if (process.platform !== 'darwin') process.exit(1);
+if (process.platform !== 'darwin') {
+  console.error('Platform is not supported!');
+  process.exit(-2);
+}
 
 const exec = require('child_process').exec;
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-const soap = require(`${__dirname}/index`);
+const osap = require('./');
 
-soap(`display dialog "A dialog" buttons "OK" default button 1`);
+osap(`display dialog "A dialog" buttons "OK" default button 1`);

@@ -6,6 +6,6 @@ Execute osascript with Promises
 
 const osap = require('osap');
 
-soap(`display dialog "A dialog" buttons "OK" default button 1`);
+osap(`display dialog "A dialog" buttons "OK" default button 1`);
 
 ```
